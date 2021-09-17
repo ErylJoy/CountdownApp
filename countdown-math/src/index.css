@@ -1,0 +1,223 @@
+.page {
+  border: 3px solid #fff;
+  padding: 20px;
+  display: flex;
+  height: 100%;
+}
+
+.levels {
+  background-color: #80c2af;
+  text-align: left;
+  width: 20%;
+  padding: 20px;
+  flex: 1;
+  order: 1;
+  border-radius: 25px;
+  border-top-left-radius: 25px;
+  border-bottom-left-radius: 25px;
+  height: 500px;
+  overflow-y: scroll;
+  scrollbar-width: thin; /* "auto" or "thin" */
+  scrollbar-color: #ffff; /* scroll thumb and track */
+}
+
+.Game {
+  margin: auto;
+  width: 30%;
+  height: 500px;
+  padding: 20px;
+  text-align: center;
+  background-color: #2a2d34;
+  flex: 3;
+  flex-direction: row;
+  order: 2;
+  display: flex;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+}
+
+.MathsDiv {
+  flex: 3;
+}
+
+.Tools {
+  flex: 1;
+}
+
+.TargetTimerHolder {
+  flex: 1;
+}
+
+.NewNumberButton {
+  height: 5em;
+  width: 5em;
+  background-color: #80c2af;
+  border-radius: 25px;
+  transition-duration: 0.2s;
+  margin: 10px;
+  text-align: center;
+  font-size: 20px;
+  border: 0px;
+}
+
+.NewNumberButton:hover {
+  height: 5em;
+  width: 5em;
+  background-color: #ffff;
+  transition-duration: 1s;
+  margin: 10px;
+  text-align: center;
+  font-size: 20px;
+  border: 0px;
+  /* box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+    0 17px 50px 0 rgba(0, 0, 0, 0.19); */
+}
+
+.Number {
+  height: 7em;
+  width: 7em;
+  background-color: #80c2af;
+  border-radius: 25px;
+  margin: 2px;
+  border: 0px;
+}
+
+.Operator {
+  margin-top: 5em;
+  height: 5em;
+  width: 5em;
+  background-color: #80c2af;
+  border-radius: 25px;
+  margin: 2px;
+  border: 0px;
+}
+
+.TheNumbers {
+  text-align: center;
+  height: 14em;
+}
+
+.TheOperators {
+  text-align: center;
+}
+
+.GenerateTarget {
+  height: 2em;
+  width: 10em;
+  margin: 1em;
+  background-color: #80c2af;
+  border-radius: 25px;
+  border: 0px;
+  font-size: 20px;
+}
+
+.TheNumber {
+  text-align: center;
+  color: #ffff;
+  font-size: 5em;
+  color: red;
+  height: 1em;
+}
+
+.SolutionHolder {
+  color: #ffff;
+  text-align: center;
+  height: 3em;
+}
+
+.Solution {
+  font-size: 60px;
+  color: #ffff;
+}
+
+.Equals {
+  height: 2em;
+  width: 10em;
+  margin: 1em;
+  background-color: #80c2af;
+  border-radius: 25px;
+  border: 0px;
+  font-size: 20px;
+}
+
+.Undo {
+  height: 2em;
+  width: 10em;
+  margin: 1em;
+  background-color: #80c2af;
+  border-radius: 25px;
+  border: 0px;
+  font-size: 20px;
+}
+
+.ToolButton {
+  height: 5em;
+  width: 20em;
+  margin: 1em;
+  background-color: #80c2af;
+  border-radius: 25px;
+  border: 0px;
+  font-size: 20px;
+}
+
+.Initialisation {
+  flex: 1;
+}
+
+#time {
+  color: rgb(255, 0, 0);
+  height: 30px;
+}
+
+body {
+  padding: 10%;
+  background-color: #779fa1;
+}
+
+/* @keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 100%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+} */
+
+/* @keyframes spin {
+  from {
+    margin-top: 0%;
+    width: 100%;
+  }
+
+  to {
+    margin-top: 100%;
+    width: 100%;
+  }
+}
+
+@keyframes slidearound {
+  from {
+    margin-left: 48%;
+    width: 100%;
+  }
+
+  to {
+    margin-left: -48%;
+    width: 100%;
+  }
+} */
+
+/* @keyframes slidedown {
+  from {
+    margin-top: 0%;
+    width: 100%;
+  }
+
+  to {
+    margin-top: 50%;
+    width: 100%;
+  }
+} */
